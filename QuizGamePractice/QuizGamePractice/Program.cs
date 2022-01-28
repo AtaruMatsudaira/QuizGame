@@ -1,5 +1,3 @@
-﻿#pragma warning disable CS8600 // Null リテラルまたは Null の可能性がある値を Null 非許容型に変換しています。
-
 public class Program
 {
     public static void Main(string[] args)
