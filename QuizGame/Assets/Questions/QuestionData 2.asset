@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc7cb825d99d1f2449a8ea2dc1e329a3, type: 3}
+  m_Name: QuestionData 2
+  m_EditorClassIdentifier: 
+  question: "1996\u5E74\u306BApple\u304C\u30D0\u30F3\u30C0\u30A4\u3068\u63D0\u643A\u3057\u3066\u767A\u58F2\u3057\u305F\u30B2\u30FC\u30E0\u6A5F\u306F\u4F55\u3067\u3057\u3087\u3046\uFF1F"
+  choices:
+  - "\u30BB\u30AC\u30B5\u30BF\u30FC\u30F3"
+  - "PC\u30A8\u30F3\u30B8\u30F3"
+  - "\u3074\u3085\u3046\u592A"
+  - "\u30D4\u30D4\u30F3\u30A2\u30C3\u30C8\u30DE\u30FC\u30AF"
+  answerIndex: 3

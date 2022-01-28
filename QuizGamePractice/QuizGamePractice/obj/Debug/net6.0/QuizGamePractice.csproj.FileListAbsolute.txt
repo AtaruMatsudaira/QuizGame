@@ -1,0 +1,15 @@
+C:\Users\Ataru\QuizGame\QuizGamePractice\QuizGamePractice\bin\Debug\net6.0\QuizGamePractice.exe
+C:\Users\Ataru\QuizGame\QuizGamePractice\QuizGamePractice\bin\Debug\net6.0\QuizGamePractice.deps.json
+C:\Users\Ataru\QuizGame\QuizGamePractice\QuizGamePractice\bin\Debug\net6.0\QuizGamePractice.runtimeconfig.json
+C:\Users\Ataru\QuizGame\QuizGamePractice\QuizGamePractice\bin\Debug\net6.0\QuizGamePractice.dll
+C:\Users\Ataru\QuizGame\QuizGamePractice\QuizGamePractice\bin\Debug\net6.0\ref\QuizGamePractice.dll
+C:\Users\Ataru\QuizGame\QuizGamePractice\QuizGamePractice\bin\Debug\net6.0\QuizGamePractice.pdb
+C:\Users\Ataru\QuizGame\QuizGamePractice\QuizGamePractice\obj\Debug\net6.0\QuizGamePractice.csproj.AssemblyReference.cache
+C:\Users\Ataru\QuizGame\QuizGamePractice\QuizGamePractice\obj\Debug\net6.0\QuizGamePractice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ataru\QuizGame\QuizGamePractice\QuizGamePractice\obj\Debug\net6.0\QuizGamePractice.AssemblyInfoInputs.cache
+C:\Users\Ataru\QuizGame\QuizGamePractice\QuizGamePractice\obj\Debug\net6.0\QuizGamePractice.AssemblyInfo.cs
+C:\Users\Ataru\QuizGame\QuizGamePractice\QuizGamePractice\obj\Debug\net6.0\QuizGamePractice.csproj.CoreCompileInputs.cache
+C:\Users\Ataru\QuizGame\QuizGamePractice\QuizGamePractice\obj\Debug\net6.0\QuizGamePractice.dll
+C:\Users\Ataru\QuizGame\QuizGamePractice\QuizGamePractice\obj\Debug\net6.0\ref\QuizGamePractice.dll
+C:\Users\Ataru\QuizGame\QuizGamePractice\QuizGamePractice\obj\Debug\net6.0\QuizGamePractice.pdb
+C:\Users\Ataru\QuizGame\QuizGamePractice\QuizGamePractice\obj\Debug\net6.0\QuizGamePractice.genruntimeconfig.cache
