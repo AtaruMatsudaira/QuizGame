@@ -52,7 +52,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Script\QuestionData.cs" />
+     <Compile Include="Assets\Script\QuizData.cs" />
      <Compile Include="Assets\Script\QuizGame.cs" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -690,6 +690,10 @@
       <Project>{3fd8128f-1fc9-3694-d1f8-c4b38f0ca0cf}</Project>
       <Name>Unity.InternalAPIEditorBridge.001</Name>
     </ProjectReference>
+    <ProjectReference Include="UniTask.DOTween.csproj">
+      <Project>{a423f383-0c18-c523-b70c-a813ff5c8048}</Project>
+      <Name>UniTask.DOTween</Name>
+    </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{b3a46858-4ae7-c7d9-8971-aab6182ffd72}</Project>
       <Name>UnityEditor.UI</Name>
@@ -697,6 +701,10 @@
     <ProjectReference Include="Unity.Rider.Editor.csproj">
       <Project>{49fbdaff-f68b-4e4b-b4e3-75b650ea1165}</Project>
       <Name>Unity.Rider.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniTask.Linq.csproj">
+      <Project>{adfe08d6-4c9f-c3bb-4837-c148d8964f1a}</Project>
+      <Name>UniTask.Linq</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
       <Project>{650aa687-990d-c012-a78e-1f417fb20e5e}</Project>
@@ -709,6 +717,10 @@
     <ProjectReference Include="Unity.2D.IK.Runtime.csproj">
       <Project>{6fcb1b9c-4c8e-2e9c-dc96-4b55a8561af4}</Project>
       <Name>Unity.2D.IK.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniTask.TextMeshPro.csproj">
+      <Project>{b7c96652-d0ee-d956-520f-a879df3fbcc3}</Project>
+      <Name>UniTask.TextMeshPro</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Animation.Triangle.Runtime.csproj">
       <Project>{64c4d549-d54c-b78b-7c25-403bee76f942}</Project>
@@ -742,29 +754,17 @@
       <Project>{642c4d0f-b3fd-8047-e4a6-73f9dde8067d}</Project>
       <Name>Unity.2D.Common.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.2D.SpriteShape.Runtime.csproj">
-      <Project>{b02bab8b-9402-83e5-7ce2-a8a1b384652a}</Project>
-      <Name>Unity.2D.SpriteShape.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="UniTask.TextMeshPro.csproj">
-      <Project>{b7c96652-d0ee-d956-520f-a879df3fbcc3}</Project>
-      <Name>UniTask.TextMeshPro</Name>
+    <ProjectReference Include="UniTask.csproj">
+      <Project>{27cd0cab-e597-b06c-7bf6-8f01a1c44b61}</Project>
+      <Name>UniTask</Name>
     </ProjectReference>
     <ProjectReference Include="UniTask.Addressables.csproj">
       <Project>{6bb4f98d-a5f0-c1e5-c337-d6187b1b31bc}</Project>
       <Name>UniTask.Addressables</Name>
     </ProjectReference>
-    <ProjectReference Include="UniTask.DOTween.csproj">
-      <Project>{a423f383-0c18-c523-b70c-a813ff5c8048}</Project>
-      <Name>UniTask.DOTween</Name>
-    </ProjectReference>
-    <ProjectReference Include="UniTask.Linq.csproj">
-      <Project>{adfe08d6-4c9f-c3bb-4837-c148d8964f1a}</Project>
-      <Name>UniTask.Linq</Name>
-    </ProjectReference>
-    <ProjectReference Include="UniTask.csproj">
-      <Project>{27cd0cab-e597-b06c-7bf6-8f01a1c44b61}</Project>
-      <Name>UniTask</Name>
+    <ProjectReference Include="Unity.2D.SpriteShape.Runtime.csproj">
+      <Project>{b02bab8b-9402-83e5-7ce2-a8a1b384652a}</Project>
+      <Name>Unity.2D.SpriteShape.Runtime</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1056,7 +1056,7 @@ GameObject:
   - component: {fileID: 1514447394}
   - component: {fileID: 1514447393}
   m_Layer: 0
-  m_Name: Question
+  m_Name: QuizObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1071,7 +1071,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1514447392}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff69b1de66946e54ca125a75a181bead, type: 3}
+  m_Script: {fileID: 11500000, guid: d8bc4db327bf16745b13cb56fa4bcff7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   questionText: {fileID: 1703194369}
@@ -1080,10 +1080,10 @@ MonoBehaviour:
   - {fileID: 1443664998}
   - {fileID: 253477592}
   - {fileID: 1298636575}
-  questionDataList:
-  - {fileID: 11400000, guid: ed094da9b9508c14f97f4c1e6578e1fd, type: 2}
-  - {fileID: 11400000, guid: bb88a6ba529be4040aec7e63759e9513, type: 2}
-  - {fileID: 11400000, guid: a546154ab6673fb46828ca2fdebc567d, type: 2}
+  quizDataList:
+  - {fileID: 11400000, guid: 51ce2860b7832cd45b905830080fd137, type: 2}
+  - {fileID: 11400000, guid: 1a65b29e980f15a4299d7a5ad9d1eba1, type: 2}
+  - {fileID: 11400000, guid: 10f040e9fb195be44acd0336775ac92c, type: 2}
 --- !u!4 &1514447394
 Transform:
   m_ObjectHideFlags: 0

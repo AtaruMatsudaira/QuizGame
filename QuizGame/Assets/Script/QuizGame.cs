@@ -7,7 +7,7 @@ public class QuizGame : MonoBehaviour
 {
     public Text questionText;
     public List<Button> buttonList;
-    public List<QuestionData> questionDataList;
+    public List<QuizData> quizDataList;
     private Text[] buttonTexts;
     private readonly string br = System.Environment.NewLine;
 
@@ -30,12 +30,12 @@ public class QuizGame : MonoBehaviour
     private async UniTask AskQuestion()
     {
         int correctCount = 0;
-        Debug.Log($"問題を出題します!{br}問題数は全部で{questionDataList.Count}個あります!");
-        for (int i = 0; i < questionDataList.Count; i++)
+        Debug.Log($"問題を出題します!{br}問題数は全部で{quizDataList.Count}個あります!");
+        for (int i = 0; i < quizDataList.Count; i++)
         {
-            questionText.text = $"第{i + 1}問目！{br}{questionDataList[i].question}";
-            int answer = await GetButtonInput(questionDataList[i].choices);
-            if (answer == questionDataList[i].answerIndex)
+            questionText.text = $"第{i + 1}問目！{br}{quizDataList[i].question}";
+            int answer = await GetButtonInput(quizDataList[i].choices);
+            if (answer == quizDataList[i].answerIndex)
             {
                 await CorrectPerformance();
                 correctCount++;
