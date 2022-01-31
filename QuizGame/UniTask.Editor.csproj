@@ -52,9 +52,9 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Library\PackageCache\com.cysharp.unitask@50a67d8f41\Editor\UniTaskTrackerWindow.cs" />
      <Compile Include="Library\PackageCache\com.cysharp.unitask@50a67d8f41\Editor\SplitterGUILayout.cs" />
      <Compile Include="Library\PackageCache\com.cysharp.unitask@50a67d8f41\Editor\UniTaskTrackerTreeView.cs" />
-     <Compile Include="Library\PackageCache\com.cysharp.unitask@50a67d8f41\Editor\UniTaskTrackerWindow.cs" />
      <None Include="Library\PackageCache\com.cysharp.unitask@50a67d8f41\Editor\UniTask.Editor.asmdef" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
